@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import StudentForm from '../components/StudentForm';
 
 class LoginView extends Component {
   render() {
@@ -14,7 +13,7 @@ class LoginView extends Component {
           <p>Ingresa tu contraseña:</p>
           <input type='password' placeholder='Contraseña' required />
         </label>
-        <Link to={StudentForm}>
+        <Link to='/confirm-form'>
           <button>Ingresar</button>
         </Link>
       </form>
