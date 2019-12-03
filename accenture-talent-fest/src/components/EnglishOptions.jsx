@@ -12,7 +12,9 @@ class EnglishOptions extends Component {
             <button>Examen acreditación por la coordinación del programa de idiomas</button>
           </Link>
           <button>Examen acreditación por la Escuela Nacional de Lenguas, Linguística y Traducción</button>
+          <Link to='/modal-question'>
           <button id='question'>?</button>
+          </Link>
         </div>
       </section>
     );

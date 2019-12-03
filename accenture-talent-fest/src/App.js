@@ -8,6 +8,7 @@ import StudentFormView from './views/StudentFormView';
 import BasicRequirementsView from './views/BasicRequirementsView';
 import EnglishOptions from './views/EnglishOptionsView';
 import Calendar from './views/Calendar';
+import ModalQuestionView from './views/ModalQuestionView';
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path='/basic-requirements' component={BasicRequirementsView} />
         <Route path='/english-option' component={EnglishOptions} />
         <Route path='/calendar' component={Calendar} />
+        <Route path='/modal-question' component={ModalQuestionView} />
       </Router>
     );
   }
