@@ -130,4 +130,21 @@ body {
         background-color: transparent;
         border-radius: 1.5rem;
     }
+    #user {
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        height: 4rem;
+        margin-top: 1rem;
+    }
+    #user-photo {
+        margin: 1rem 0;
+        width: 3rem;
+    }
+    #user-photo img {
+        width: 3rem;
+    }
+    li.waves-effect {
+        width: 100%;
+    }
 }
