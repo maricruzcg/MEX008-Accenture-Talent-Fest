@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 class BasicRequirements extends Component {
   render() {
     return (
-      <section>
+      <section id='english-section'>
         <h2>Elige el registro que necesitas cubrir</h2>
 
         <form action='#'>
@@ -25,15 +25,17 @@ class BasicRequirements extends Component {
               </span>
             </label>
           </p>
-          <Link to='/english-option'>
-            <button
-              class='btn waves-effect waves-light'
-              type='submit'
-              name='action'>
-              Acreditación segundo idioma
-              <i class='material-icons right'>send</i>
-            </button>
-          </Link>
+          <div>
+            <Link to='/english-option'>
+              <button
+                className='english-btn btn waves-effect waves-light'
+                type='submit'
+                name='action'>
+                Acreditación segundo idioma
+                <i class='material-icons right'>send</i>
+              </button>
+            </Link>
+          </div>
         </form>
       </section>
     );
