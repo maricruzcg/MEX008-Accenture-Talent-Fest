@@ -9,6 +9,7 @@ class EnglishOptions extends Component {
 
         <div>
           <Link to='/calendar'>
+
             <button className='english-btn btn waves-effect waves-light'>
               Examen acreditación por la coordinación del programa de idiomas
             </button>
@@ -19,7 +20,10 @@ class EnglishOptions extends Component {
             y Traducción
           </button>
 
+
+              <Link to='/modal-question'>
           <button id='question'>?</button>
+          </Link>
         </div>
       </section>
     );
