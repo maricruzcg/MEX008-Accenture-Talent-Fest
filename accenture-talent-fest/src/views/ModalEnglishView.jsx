@@ -1,16 +1,16 @@
 import React, { Component, Fragment } from 'react';
-import StudentForm from '../components/StudentForm';
+import ModalEnglish from '../components/ModalEnglish'
 import Navbar from '../components/Navbar';
 
-class StudentFormView extends Component {
+class ModalEnglishView extends Component {
   render() {
     return (
       <Fragment>
         <Navbar />
-        <StudentForm />
+        <ModalEnglish />
       </Fragment>
     );
   }
 }
 
-export default StudentFormView;
+export default ModalEnglishView;

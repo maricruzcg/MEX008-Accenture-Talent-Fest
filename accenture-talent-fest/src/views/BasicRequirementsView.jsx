@@ -1,16 +1,16 @@
 import React, { Component, Fragment } from 'react';
-import StudentForm from '../components/StudentForm';
+import BasicRequirements from '../components/BasicRequirements'
 import Navbar from '../components/Navbar';
 
-class StudentFormView extends Component {
+class BasicRequirementsView extends Component {
   render() {
     return (
       <Fragment>
         <Navbar />
-        <StudentForm />
+        <BasicRequirements />
       </Fragment>
     );
   }
 }
 
-export default StudentFormView;
+export default BasicRequirementsView;
