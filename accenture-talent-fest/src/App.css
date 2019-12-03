@@ -13,14 +13,35 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+    nav {
+        background-color: transparent !important;
+        box-shadow: none !important;
+    }
+    nav i {
+        color: #272727;
+    }
     section {
         width: 100vw;
+        min-height: 100vh;
         margin: 0 auto;
         padding: 1rem 1.5rem;
+        background: rgb(255, 255, 255);
+        /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 6%, rgba(241, 243, 246, 1) 73%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f3f6', GradientType=0);
+        /* IE6-9 */
     }
     h2 {
         margin-top: 1rem !important;
         font-size: 2rem !important;
+    }
+    .student-form {
+        width: 100%;
     }
     .student-form input {
         width: 90%;
@@ -28,5 +49,35 @@ body {
     }
     .sidenav-overlay {
         opacity: 0 !important;
+    }
+    .student-form div {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    .student-form button {
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#977ef2+29,2955d9+82 */
+        background: rgb(151, 126, 242) !important;
+        /* Old browsers */
+        background: -moz-linear-gradient(-45deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(-45deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(135deg, rgba(151, 126, 242, 1) 29%, rgba(41, 85, 217, 1) 82%) !important;
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#977ef2', endColorstr='#2955d9', GradientType=1);
+        /* IE6-9 fallback on horizontal gradient */
+        height: 3rem !important;
+        border-radius: 20rem !important;
+        margin: 1rem auto;
+        padding: 0 1rem;
+        width: 13rem;
+        border: none;
+        text-transform: uppercase;
+        color: white;
+        font-weight: 500;
+        font-size: 1.2rem;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.68);
     }
 }
