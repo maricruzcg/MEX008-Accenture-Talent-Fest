@@ -13,12 +13,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-
     section {
         width: 100vw;
         margin: 0 auto;
         padding: 1rem 1.5rem;
-
+    }
     nav {
         background-color: transparent !important;
         box-shadow: none !important;
@@ -41,17 +40,14 @@ body {
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
         filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f1f3f6', GradientType=0);
         /* IE6-9 */
-
     }
     h2 {
         margin-top: 1rem !important;
         font-size: 2rem !important;
     }
-
     .student-form {
         width: 100%;
     }
-
     .student-form input {
         width: 90%;
         margin: 0 auto;
@@ -59,7 +55,6 @@ body {
     .sidenav-overlay {
         opacity: 0 !important;
     }
-
     .student-form div,
     #english-section div,
     #english-certificate div {
@@ -135,5 +130,4 @@ body {
         background-color: transparent;
         border-radius: 1.5rem;
     }
-
 }
