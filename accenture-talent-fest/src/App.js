@@ -5,13 +5,15 @@ import './App.css';
 //Components
 import Login from './views/LoginView';
 import StudentFormView from './views/StudentFormView';
+import BasicRequirementsView from './views/BasicRequirementsView';
 
 class App extends Component {
   render() {
     return (
       <Router basename={process.env.PUBLIC_URL}>
         <Route exact path='/' component={Login} />
-        <Route exact path='/confirm-form' component={StudentFormView} />
+        <Route path='/confirm-form' component={StudentFormView} />
+        <Route path='/basic-requirements' component={BasicRequirementsView} />
       </Router>
     );
   }
