@@ -7,6 +7,7 @@ import Login from './views/LoginView';
 import StudentFormView from './views/StudentFormView';
 import BasicRequirementsView from './views/BasicRequirementsView';
 import EnglishOptions from './views/EnglishOptionsView';
+import Calendar from './views/Calendar';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
         <Route path='/confirm-form' component={StudentFormView} />
         <Route path='/basic-requirements' component={BasicRequirementsView} />
         <Route path='/english-option' component={EnglishOptions} />
+        <Route path='/calendar' component={Calendar} />
       </Router>
     );
   }

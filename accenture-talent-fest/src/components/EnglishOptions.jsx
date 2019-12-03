@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class EnglishOptions extends Component {
   render() {
@@ -7,7 +8,9 @@ class EnglishOptions extends Component {
         <h2>Opciones para obtener tu certificado de idiomas</h2>
 
         <div>
-          <button>Examen acreditación por la coordinación del programa de idiomas</button>
+          <Link to='/calendar'>
+            <button>Examen acreditación por la coordinación del programa de idiomas</button>
+          </Link>
           <button>Examen acreditación por la Escuela Nacional de Lenguas, Linguística y Traducción</button>
           <button id='question'>?</button>
         </div>

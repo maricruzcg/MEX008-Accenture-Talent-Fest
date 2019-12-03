@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 class BasicRequirements extends Component {
   render() {
     return (
-      <Fragment>
-        <h1>Elige el registro que necesitas cubrir</h1>
+      <section>
+        <h2>Elige el registro que necesitas cubrir</h2>
 
         <form action='#'>
           <p>
@@ -35,7 +35,7 @@ class BasicRequirements extends Component {
             </button>
           </Link>
         </form>
-      </Fragment>
+      </section>
     );
   }
 }
