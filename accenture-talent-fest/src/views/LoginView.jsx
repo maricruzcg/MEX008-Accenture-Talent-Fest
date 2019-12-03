@@ -6,8 +6,8 @@ class LoginView extends Component {
     return (
       <form>
         <label htmlFor=''>
-          <p>Ingresa tu matrícula:</p>
-          <input type='text' placeholder='Matrícula' required />
+          <p>Ingresa tu No. de cuenta:</p>
+          <input type='text' placeholder='No. de cuenta' required />
         </label>
         <label htmlFor=''>
           <p>Ingresa tu contraseña:</p>
