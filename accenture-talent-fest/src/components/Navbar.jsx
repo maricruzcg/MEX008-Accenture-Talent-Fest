@@ -48,11 +48,10 @@ class Sidebar extends Component {
                   <p>Tu paso a paso</p>
                 </a>
               </li>
-              <li>
-                <a className='waves-effect' href='#!'>
-                  <i className='material-icons'>close</i>
-                  <p>Cerrar sesión</p>
-                </a>
+              <li className='waves-effect'>
+                <Link to='/'>
+                  <i className='material-icons'>close</i>Cerrar sesión
+                </Link>
               </li>
             </ul>
             <a href='#' data-target='slide-out' className='sidenav-trigger'>
