@@ -30,12 +30,14 @@ class StudentForm extends Component {
             <p>Año de Ingreso</p>
           </label>
           <input type='text' value='2015' readonly />
-          <Link to='/basic-requirements'>
-            <button>Confirmar</button>
-          </Link>
-          <p>
-            ¿Tu información no corresponde? <br /> Comunícate al 57 45 36 32
-          </p>
+          <div>
+            <Link to='/basic-requirements'>
+              <button>Confirmar</button>
+            </Link>
+            <p>
+              ¿Tu información no corresponde? <br /> Comunícate al 57 45 36 32
+            </p>
+          </div>
         </form>
       </section>
     );
